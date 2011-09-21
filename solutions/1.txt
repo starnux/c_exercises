@@ -1,0 +1,6 @@
+It doesn't work because TOTAL_ELEMENTS is unsigned because of sizeof, and the first for comparison fails because d is casted to unsigned to be compared with TOTAL_ELEMENTS.
+
+change to :
+    for(d=-1;d <= (int)(TOTAL_ELEMENTS-2);d++)
+
+to work.

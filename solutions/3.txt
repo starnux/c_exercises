@@ -1,0 +1,1 @@
+In a do..while loop, the continue statement directly jumps to the while(statement)
